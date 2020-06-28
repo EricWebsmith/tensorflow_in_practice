@@ -1,0 +1,6 @@
+TRAINING_DIR = "/tmp/cats-v-dogs/training/"
+VALIDATION_DIR = "/tmp/cats-v-dogs/testing/"
+
+
+augmentation
+3 layers, 80%

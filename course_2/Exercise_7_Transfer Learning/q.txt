@@ -1,0 +1,12 @@
+transfer learning 
+
+# Download the inception v3 weights
+
+#!wget --no-check-certificate \
+#    https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5 \
+#    -O /tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+/tmp/horse-or-human
+
+
+99.9%

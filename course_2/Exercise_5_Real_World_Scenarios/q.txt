@@ -1,0 +1,9 @@
+# In this exercise you will train a CNN on the FULL Cats-v-dogs dataset
+# This will require you doing a lot of data preprocessing because
+# the dataset isn't split into training and validation for you
+# This code block has all the required inputs
+
+TRAINING_DIR = "/tmp/cats-v-dogs/training/"
+VALIDATION_DIR = "/tmp/cats-v-dogs/testing/"
+
+3 layers, 75%
