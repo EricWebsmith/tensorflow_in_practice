@@ -1,0 +1,8 @@
+# !wget --no-check-certificate \
+#     https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sonnets.txt \
+#     -O /tmp/sonnets.txt
+
+
+
+seed_text = "Help me Obi Wan Kenobi, you're my only hope"
+next_words = 100
