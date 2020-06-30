@@ -2,6 +2,10 @@
 #    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/training_cleaned.csv \
 #    -O /tmp/training_cleaned.csv
 
+# !wget --no-check-certificate \
+#     https://storage.googleapis.com/laurencemoroney-blog.appspot.com/glove.6B.100d.txt \
+#     -O /tmp/glove.6B.100d.txt
+
 /tmp/glove.6B.100d.txt
 
         # Your Code here. Create list items where the first item is the text, found in row[5], and the second is the label. 

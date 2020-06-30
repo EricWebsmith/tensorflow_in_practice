@@ -1,4 +1,13 @@
 ```python
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Embedding, GlobalAveragePooling1D
+from tensorflow.keras.optimizers import Adam
+
+```
+
+```python
 # Define a Callback class that stops training once accuracy reaches 99.9%
 class myCallback(tf.keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs={}):
